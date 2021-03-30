@@ -1,14 +1,18 @@
 <div class="container">
     <div class="list-container">
-        <% subscribers.forEach( sub => { %>
+        <% subscribers.forEach(sub=> { %>
             <div class="subscriber">
                 <p>
-                <span class="item-label"><%=sub.name %></span>
+                    <span class="item-label">
+                        <%= sub.name %>
+                    </span>
                 </p>
                 <p>
-                   <span class="item-label"><%= sub.email %></span> 
+                    <span class="item-label">
+                        <%= sub.email %>
+                    </span>
                 </p>
             </div>
-       <% }); %>
+            <% }); %>
     </div>
 </div>

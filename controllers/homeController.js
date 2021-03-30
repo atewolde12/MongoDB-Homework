@@ -12,9 +12,6 @@ var courses = [
         cost: 100
     },
 ]
-
-
-
 exports.showCourses = (reg,res) => {
     res.render("courses", {offeredZCourses: courses});
 }
